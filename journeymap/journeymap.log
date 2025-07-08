@@ -1,8 +1,8 @@
-[00:21:21] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[00:21:21] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[00:21:21] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[00:21:21] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[00:21:22] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
+[01:41:20] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[01:41:20] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[01:41:20] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[01:41:20] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[01:41:20] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
 forge: 47.4.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ko_kr, locale=ko_kr
 Features: 
@@ -20,21 +20,21 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.1
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.10.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.10.3, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.10.3, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.10.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[00:21:22] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 646.3ms
-[00:21:24] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[00:21:25] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[00:21:25] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 671.2ms
-[00:21:42] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[00:21:56] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\waypoints
-[00:21:56] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\overworld. Memory: 2686MB total, 1703MB free 
-[00:21:56] [Render thread/INFO] [ChatLog] JourneyMap: Å¬¸¯ [J]
-[00:22:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
-[00:23:13] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\mp\offline\minecraft:overworld
-[00:23:15] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[00:35:12] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[00:35:20] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\waypoints
-[00:35:20] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\overworld. Memory: 2596MB total, 1349MB free 
-[01:34:00] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[01:34:00] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[02:05:19] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\mp\offline\minecraft:overworld
-[02:05:20] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[01:41:20] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 448.63ms
+[01:41:22] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[01:41:22] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[01:41:22] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 659.78ms
+[01:41:34] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[01:41:48] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\waypoints
+[01:41:48] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\overworld. Memory: 2390MB total, 1268MB free 
+[01:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:41:49] [Render thread/INFO] [ChatLog] JourneyMap: Å¬¸¯ [J]
+[01:42:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:50:14] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\mp\offline\minecraft:overworld
+[01:50:15] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
