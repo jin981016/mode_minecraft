@@ -1,8 +1,8 @@
-[01:41:20] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[01:41:20] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[01:41:20] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[01:41:20] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[01:41:20] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
+[23:33:08] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[23:33:08] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[23:33:08] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[23:33:08] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[23:33:08] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
 forge: 47.4.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ko_kr, locale=ko_kr
 Features: 
@@ -20,21 +20,209 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.1
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.10.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.10.3, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.10.3, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.10.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[01:41:20] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 448.63ms
-[01:41:22] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[01:41:22] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[01:41:22] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 659.78ms
-[01:41:34] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[01:41:48] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\waypoints
-[01:41:48] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\overworld. Memory: 2390MB total, 1268MB free 
-[01:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
-[01:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
-[01:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
-[01:41:49] [Render thread/INFO] [ChatLog] JourneyMap: Å¬¸¯ [J]
-[01:42:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
-[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
-[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
-[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
-[01:49:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
-[01:50:14] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\mp\offline\minecraft:overworld
-[01:50:15] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[23:33:09] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 965.16ms
+[23:33:11] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[23:33:12] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[23:33:12] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 884.9ms
+[23:34:15] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[23:34:35] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\waypoints
+[23:34:35] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\sp\Âé¾ß¹ÌÀÇÇÜÂî¿©Çà±â\overworld. Memory: 1754MB total, 510MB free 
+[23:34:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[23:34:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[23:34:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[23:34:36] [Render thread/INFO] [ChatLog] JourneyMap: Å¬¸¯ [J]
+[23:35:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[23:38:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[23:39:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[23:39:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[23:39:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[23:39:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[23:44:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[23:44:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[23:44:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[23:44:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[23:50:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[23:50:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[23:50:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[23:50:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[23:53:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[23:54:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[23:54:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[23:54:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[23:54:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[23:55:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[23:58:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[23:58:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[23:58:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[23:58:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:01:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:01:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:01:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:01:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:02:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[00:05:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:05:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:05:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:05:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:10:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[00:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:15:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:15:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:15:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:15:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:18:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:18:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:18:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:18:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:22:14] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[00:22:15] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[00:22:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:22:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:22:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:22:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:25:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:25:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:25:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:25:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:29:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:29:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:29:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:29:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:33:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:33:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:33:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:33:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:36:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:36:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:36:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:36:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:40:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:40:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:40:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:40:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:43:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:43:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:43:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:43:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:46:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:46:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:46:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:46:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:47:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[00:50:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:50:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:50:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:50:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:54:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:54:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[00:54:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:54:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:57:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[00:57:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[00:57:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[00:57:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:01:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:01:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:01:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:01:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:02:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:04:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:04:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:04:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:04:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:05:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:08:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:08:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:08:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:08:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:11:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:12:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:12:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:12:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:12:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:12:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:15:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:15:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:15:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:15:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:16:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:19:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:19:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:19:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:19:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:22:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:22:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:22:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:22:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:26:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:26:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:26:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:26:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:27:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:29:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:29:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:29:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:29:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:30:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:32:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:32:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:32:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:32:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:32:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:35:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:35:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:35:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:35:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:35:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[01:40:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:40:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:40:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:40:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:44:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:44:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:44:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:44:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:47:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:47:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:47:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:47:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:51:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:51:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:52:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:52:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:55:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[01:55:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[01:55:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[01:55:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:59:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[01:59:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[02:00:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[02:00:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[02:04:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[02:04:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[02:04:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[02:04:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[02:09:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[02:09:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[02:09:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[02:09:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[02:13:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[02:13:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[02:13:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[02:13:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[02:20:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[02:20:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[02:20:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[02:20:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[02:20:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[02:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/black.png
+[02:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/white.png
+[02:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/grey_white.png
+[02:23:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/brown.png
+[02:25:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for hamsters:textures/entity_icon/hamster/orange.png
+[02:25:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jinan\curseforge\minecraft\Instances\Âé¾ß´ÂÇÜÂî\journeymap\data\mp\offline\minecraft:overworld
+[02:25:35] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@144fdfa8
+[02:25:37] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
